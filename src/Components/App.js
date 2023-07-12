@@ -5,8 +5,8 @@ import './App.css';
 export const App = () => {
   return (
     <>
-      <div className="welcome">Welcome to App</div>
-      <img src={landscape} alt="test-image" />
+      <div className='welcome'>Welcome to App</div>
+      <img src={landscape} alt='test-image' />
     </>
   );
 };

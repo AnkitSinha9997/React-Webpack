@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server --mode development --open --hot",
     "build": "webpack --mode production",
-    "lint": "webpack --mode=production --config webpack.config.js",
+    "lint": "eslint src --ext .js,.jsx --format node_modules/eslint-html-reporter/index.js --output-file eslint-report.html",
     "format": "prettier --write \"src/**/*.js\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -30,6 +30,7 @@
     "eslint-loader": "^4.0.2",
     "eslint-plugin-html": "^7.1.0",
     "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-prettier": "^5.0.0",
     "eslint-plugin-react": "^7.32.2",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.5.3",
