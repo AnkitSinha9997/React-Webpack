@@ -24,7 +24,13 @@
     "react/display-name": "off",
     "no-unused-vars": "error",
     "semi": ["error", "always"],
-    "quotes": ["error", "single"]
+    "quotes": ["error", "single"],
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ]
     // Add more rules as needed
   }
 }

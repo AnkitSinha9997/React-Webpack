@@ -1,7 +1,6 @@
 import React from 'react';
 import landscape from '../assets/images/landscape.jpg';
 import './App.css';
-
 export const App = () => {
   return (
     <>
